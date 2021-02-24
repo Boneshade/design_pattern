@@ -29,6 +29,10 @@ public class Test {
     }
 
     public static void main(String[] args) {
+        //向上转型(没法使用子类独立的方法)
+        Father father = new Children();
+        father.print();
+
         func(new Father());
         func(new Children());
         func(new Children2());
