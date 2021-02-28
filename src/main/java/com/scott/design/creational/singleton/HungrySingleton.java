@@ -14,6 +14,7 @@ public class HungrySingleton implements Serializable, Cloneable {
     }
 
     private HungrySingleton() {
+        //防止反射攻击
         if (hungrySingleton != null){
             throw new RuntimeException("单例构造器禁止反射调用");
         }
@@ -26,7 +27,8 @@ public class HungrySingleton implements Serializable, Cloneable {
         return hungrySingleton;
     }
 
-
-
-
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return getInstance();
+    }
 }

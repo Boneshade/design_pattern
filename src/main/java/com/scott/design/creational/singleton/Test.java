@@ -1,6 +1,5 @@
 package com.scott.design.creational.singleton;
 
-import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 
 /**
@@ -13,6 +12,15 @@ import java.lang.reflect.InvocationTargetException;
 public class Test {
 
     public static void main(String[] args) throws NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException {
+
+
+
+        System.out.println("main thread"+ThreadLocalInstance.getInstance());
+        System.out.println("main thread"+ThreadLocalInstance.getInstance());
+        System.out.println("main thread"+ThreadLocalInstance.getInstance());
+        System.out.println("main thread"+ThreadLocalInstance.getInstance());
+        System.out.println("main thread"+ThreadLocalInstance.getInstance());
+        System.out.println("main thread"+ThreadLocalInstance.getInstance());
 //        LazySingleton lazySingleton = LazySingleton.getInstance();
 //        Thread t1 = new Thread(new TestThread());
 //        Thread t2 = new Thread(new TestThread());
@@ -33,8 +41,8 @@ public class Test {
 //        System.out.println(instance == newInstance);
 
 
-        EnumInstance instance = EnumInstance.getInstance();
-        instance.printTest();
+//        EnumInstance instance = EnumInstance.getInstance();
+//        instance.printTest();
 
 
 
