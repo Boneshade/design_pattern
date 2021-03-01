@@ -5,6 +5,9 @@ package com.scott.design.creational.singleton;
  * @title: LazyDoubleCheckSingleton
  * @projectName design_pattern
  * @description: <h1>双重校验锁实现对象单例</h1>
+ * 实例化的一个类的对象过程就是一个典型的递归过程
+ * 先依次执行实例变量初始化和实例代码块初始化，再执行构造函数初始化。也就是说，编译器会将实例变量初始化和实例代码块初始化相关代码放到类的构造函数中去，
+ * 并且这些代码会被放在对超类构造函数的调用语句之后，构造函数本身的代码之前
  * @date 2021/2/2611:04
  */
 public class LazyDoubleCheckSingleton {

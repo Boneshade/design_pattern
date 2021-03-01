@@ -1,7 +1,5 @@
 package com.scott.design.creational.abstractfactory;
 
-import com.scott.design.creational.abstractfactory.Video;
-
 /**
  * @author xubr
  * @title: CourseFactory
