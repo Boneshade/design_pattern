@@ -1,6 +1,7 @@
 package com.scott.design.creational.singleton;
 
 /**
+ * @author xubr 2021/2/26
  * @author xubr
  * @title: LazyDoubleCheckSingleton
  * @projectName design_pattern
@@ -16,6 +17,7 @@ public class LazyDoubleCheckSingleton {
 
     private LazyDoubleCheckSingleton() {
     }
+
 
 
     public static LazyDoubleCheckSingleton getInstance() {
