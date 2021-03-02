@@ -4,7 +4,7 @@ package com.scott.design.structural.facade;
  * @author xubr
  * @title: GiftExchangeService
  * @projectName design_pattern
- * @description: <h1>礼物兑换</h1>
+ * @description: <h1>外观模式接口-礼物兑换</h1>
  * @date 2021/3/116:16
  */
 public class GiftExchangeService {
