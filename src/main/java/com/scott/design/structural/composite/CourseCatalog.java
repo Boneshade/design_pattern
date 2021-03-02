@@ -7,7 +7,7 @@ import java.util.List;
  * @author xubr
  * @title: CourseCatalog
  * @projectName design_pattern
- * @description: <h1></h1>
+ * @description: <h1>组合模式</h1>
  * @date 2021/3/215:16
  */
 public class CourseCatalog extends CatalogComponent {
