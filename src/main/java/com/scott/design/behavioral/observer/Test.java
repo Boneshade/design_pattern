@@ -35,9 +35,6 @@ public class Test {
         eventbus.register(guavaEvent);
         eventbus.post("提问的内容");
 
-
-
-
     }
 
 }
