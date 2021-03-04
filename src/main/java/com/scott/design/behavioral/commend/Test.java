@@ -1,7 +1,5 @@
 package com.scott.design.behavioral.commend;
 
-import java.util.Stack;
-
 /**
  * @author xubr
  * @title: Test
@@ -18,15 +16,11 @@ public class Test {
 
         OpenCourseVideoCommand openCourseVideoCommand=new OpenCourseVideoCommand(courseVideo);
 
-
         Staff staff=new Staff();
         staff.addCommend(openCourseVideoCommand);
         staff.addCommend(closeCourseVideoCommand);
 
-
         staff.executeCommands();
-
-
     }
 
 }
