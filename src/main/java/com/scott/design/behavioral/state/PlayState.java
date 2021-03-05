@@ -1,7 +1,5 @@
 package com.scott.design.behavioral.state;
 
-import com.scott.design.behavioral.iterator.Course;
-
 /**
  * @author xubr
  * @title: PlayState
